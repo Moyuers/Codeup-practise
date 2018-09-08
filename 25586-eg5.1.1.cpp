@@ -19,8 +19,11 @@
 
 int main(){
     int sum=0;
-    for(int i=1;i<=100;i++)
+    int i=1;
+    while(i<=100){
         sum+=i;
+        i++；
+    }
     printf("%d\n",sum);
     return 0;
 }
